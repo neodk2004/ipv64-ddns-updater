@@ -76,7 +76,7 @@ Erwartete Ausgabe beim ersten Lauf:
 sudo crontab -e
 ```
 
-Folgende Zeile hinzufügen (läuft täglich um 06:00 und 18:00 Uhr):
+Folgende Zeile hinzufügen (läuft täglich um 06:00 und 18:00 Uhr), kann angepasst werden - https://crontab.cronhub.io/ - :
 
 ```
 0 6,18 * * * /opt/ddns/ddns_update.sh >> /var/log/ddns_update.log 2>&1
