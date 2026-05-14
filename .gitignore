@@ -1,0 +1,6 @@
+# Gespeicherte IP-Adresse (serverspezifisch, nicht ins Repo)
+updip.txt
+
+# Lokale Konfiguration mit echtem Key – niemals committen!
+# Nur config.env mit Platzhaltern gehört ins Repo.
+config.local.env
