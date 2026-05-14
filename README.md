@@ -193,6 +193,9 @@ tail -f /var/log/ddns_update.log
 ```
 
 ---
+## Beispiel - Erfolgreicher Durchlauf 
+<img width="675" height="540" alt="Screenshot 2026-05-14 105114" src="https://github.com/user-attachments/assets/ac6d561f-307e-471d-bf34-e42bbbb7734a" />
+
 
 ## Lizenz
 
