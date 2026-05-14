@@ -47,7 +47,7 @@ sudo nano /opt/ddns/config.env
 
 Alle Felder ausfüllen (siehe [Konfigurationsreferenz](#konfigurationsreferenz)).
 
-### 3. Berechtigungen setzen
+### 3. Berechtigungen setzen !!! WICHTIG !!!
 
 ```bash
 sudo chmod 700 /opt/ddns/ddns_update.sh
