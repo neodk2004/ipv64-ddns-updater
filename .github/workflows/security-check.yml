@@ -5,8 +5,10 @@ on:
     branches: [ "main", "master" ]
   pull_request:
     branches: [ "main", "master" ]
+
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 jobs:
   shellcheck:
     name: ShellCheck (Code Quality)
@@ -17,7 +19,6 @@ jobs:
 
       - name: Run ShellCheck
         uses: ludeeus/action-shellcheck@master
-        # Die Action scannt automatisch alle .sh Dateien im Repo
 
   semgrep:
     name: Semgrep (Security Scan)
@@ -27,5 +28,6 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run Semgrep
-        run: |
-          docker run --rm -v "${{ github.workspace }}:/src" returntocorp/semgrep semgrep --config=p/shellcheck --config=p/security-audit /src
+        uses: semgrep/semgrep-action@v1
+        with:
+          config: p/security-audit
