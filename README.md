@@ -1,5 +1,11 @@
-[![Security & Quality Check](https://github.com/neodk2004/ipv64-ddns-updater/actions/workflows/security-check.yml/badge.svg)](https://github.com/neodk2004/ipv64-ddns-updater/actions/workflows/security-check.yml)
 # IPV64.net DDNS Updater
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/neodk2004/ipv64-ddns-updater)
+[![Security & Quality Check](https://github.com/neodk2004/ipv64-ddns-updater/actions/workflows/security-check.yml/badge.svg)](https://github.com/neodk2004/ipv64-ddns-updater/actions/workflows/security-check.yml)
+![GitHub License](https://img.shields.io/github/license/neodk2004/ipv64-ddns-updater)
+![GitHub last commit](https://img.shields.io/github/last-commit/neodk2004/ipv64-ddns-updater)
+![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=flat&logo=gnu-bash&logoColor=white)
+
+
 
 Automatisches Dynamic-DNS-Update-Skript für [IPV64.net](https://ipv64.net).  
 Erkennt IP-Änderungen und aktualisiert beliebig viele Subdomains vollautomatisch per Cron-Job.
