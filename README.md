@@ -1,3 +1,4 @@
+[![Security & Quality Check](https://github.com/neodk2004/ipv64-ddns-updater/actions/workflows/security-check.yml/badge.svg)](https://github.com/neodk2004/ipv64-ddns-updater/actions/workflows/security-check.yml)
 # IPV64.net DDNS Updater
 
 Automatisches Dynamic-DNS-Update-Skript für [IPV64.net](https://ipv64.net).  
