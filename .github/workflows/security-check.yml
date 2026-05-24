@@ -1,0 +1,30 @@
+name: Security & Quality Check
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+
+jobs:
+  shellcheck:
+    name: ShellCheck (Code Quality)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run ShellCheck
+        uses: ludeeus/action-shellcheck@master
+        # Die Action scannt automatisch alle .sh Dateien im Repo
+
+  semgrep:
+    name: Semgrep (Security Scan)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run Semgrep
+        run: |
+          docker run --rm -v "${{ github.workspace }}:/src" returntocorp/semgrep semgrep --config=p/shellcheck --config=p/security-audit /src
