@@ -1,7 +1,7 @@
 # IPV64.net DDNS Updater
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/neodk2004/ipv64-ddns-updater)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/neodk2004/ipv64-ddns-updater?cacheBuster=1)
 [![Security & Quality Check](https://github.com/neodk2004/ipv64-ddns-updater/actions/workflows/security-check.yml/badge.svg)](https://github.com/neodk2004/ipv64-ddns-updater/actions/workflows/security-check.yml)
-![GitHub License](https://img.shields.io/github/license/neodk2004/ipv64-ddns-updater)
+![GitHub License](https://img.shields.io/github/license/neodk2004/ipv64-ddns-updater?cacheBuster=1)
 ![GitHub last commit](https://img.shields.io/github/last-commit/neodk2004/ipv64-ddns-updater)
 ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=flat&logo=gnu-bash&logoColor=white)
 
