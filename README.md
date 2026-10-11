@@ -4,6 +4,7 @@
 ![GitHub License](https://img.shields.io/github/license/neodk2004/ipv64-ddns-updater?cacheBuster=1)
 ![GitHub last commit](https://img.shields.io/github/last-commit/neodk2004/ipv64-ddns-updater)
 ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=flat&logo=gnu-bash&logoColor=white)
+[![Support me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E8R028M0YO)
 
 
 
